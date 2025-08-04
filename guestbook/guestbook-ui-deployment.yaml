@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: gcr.io/google-samples/gb-frontend:v5
+        - image: registry-vpc.cn-shenzhen.aliyuncs.com/kuaifu-test/xmkf-data-center-web:2025-06-24-11-45-17_37_b300dce6e45d66cc27f9d341bdcbd91b8815e22c
           name: guestbook-ui
           ports:
             - containerPort: 80
